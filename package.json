@@ -2,7 +2,7 @@
   "name": "oscar-ft",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://alenthomas.github.io/oscar-ft",
+  "homepage": "http://alenthomas.github.io/fleeting-time/oscars-ft",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
