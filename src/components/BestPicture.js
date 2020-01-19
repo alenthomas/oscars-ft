@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, SubCard } from './Card';
+import { SubCard } from './Card';
 import { resources } from '../constants';
 
 const BASE_URL = 'http://127.0.0.1:8000'

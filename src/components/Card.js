@@ -1,7 +1,7 @@
 import React from 'react';
 
 export function Card(props) {
-  const { progress = 0, name = 'year', className = '' } = props;
+  const { name = 'year', className = '' } = props;
   return (
     <div className={`block box ${className}`} onClick={props.onClick}>
       <div className='content is-medium'>

@@ -3,7 +3,6 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import { Landing } from './components/Landing';
 import { BestPicture } from './components/BestPicture';
@@ -13,7 +12,7 @@ import './App.scss';
 
 
 
-function Progress(props) {
+export function Progress(props) {
   const { progress = 0, name = 'year', className = '' } = props;
   return (
     <div className={`block box ${className}`} onClick={props.onClick}>
